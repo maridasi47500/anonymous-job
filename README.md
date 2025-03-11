@@ -1,3 +1,3 @@
-# my ai adventure
+# my job adventure
 
-pats metier, metier selon les mous
+pays,  metier, metier selon les mois, un gps, entreprise , 
