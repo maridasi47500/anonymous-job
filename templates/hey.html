@@ -1,12 +1,17 @@
 {% extends 'base.html' %}
 
+{% block montitre %}
+debut de mes mots: bienvenue dans anonymous job
+{% endblock %}
 {% block content %}
 <h1># anonymous-job</h1>
 {% for x in users | reverse %}
  <li>{{ x["first_name"]  }}</li>
 
 {% endfor %} 
+fin de mes mots : par exemple tu rentres1 user, 1 nom de job, la localisation ou est lentreprise, et mois par mois, largent gagné.
 {% endblock %}
 {% block liens %}
 <a href="/">welcome</a>
 {% endblock %}
+<a href="/add_one_job"> add one job</a><a href="/add_one_country"> add one country</a><a href="/add_one_city"> add one city</a><a href="/add_one_user"> add one user</a><a href="/add_one_location"> add one location</a><a href="/add_one_company"> add one company</a><a href="/add_one_company_data"> add one company_data</a>
